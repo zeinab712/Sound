@@ -32,7 +32,7 @@ Data is saved in **localStorage** so it persists after refresh.
 
 ---
 ## 🚀 Deployment
-- (http://kaleidoscopic-froyo-7dcf71.netlify.app/)
+- https://strong-banoffee-1fa44a.netlify.app/
 
 ## 🚀 Run Project
 ```bash
