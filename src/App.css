@@ -1,0 +1,19 @@
+body{
+    background-color: #000000;
+    color: white;
+    overflow-x:hidden;
+}
+.glow-button {
+  background-color: #9333ea; 
+  color: white;
+  padding: 12px 24px;      
+  border-radius: 12px;      
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 20px 4px rgba(168, 85, 247, 0.5); 
+}
+
+.glow-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px 8px rgba(168, 85, 247, 0.8);
+}
