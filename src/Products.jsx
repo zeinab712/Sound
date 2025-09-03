@@ -254,7 +254,11 @@ const Products = () => {
                       className="w-50 mx-auto"
                     />
 
-                    <div className="absolute top-3 right-3 z-20 opacity-0 group-hover:opacity-100 transition ">
+                    <div className="absolute top-3 right-3 z-20 
+                                    opacity-100 
+                                    lg:opacity-0 lg:group-hover:opacity-100 
+                                    transition">
+
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
@@ -289,7 +293,7 @@ const Products = () => {
                         handleAddToCart(product.selectedQuantity);
                         handleAddToProduct(index, product.selectedQuantity);
                       }}
-                      className="absolute w-[85%] cursor-pointer left-1/2 -translate-x-1/2 -bottom-4 
+                      className="absolute w-[85%] cursor-pointer left-1/2 -translate-x-1/2 -bottom-6
                                   px-4 py-3 rounded-lg 
                                   bg-gradient-to-r from-purple-600 to-pink-500 hover:from-pink-500 hover:to-purple-600 
                                   font-medium 
