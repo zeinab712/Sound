@@ -278,15 +278,23 @@ const Products = () => {
                     </div>
 
                     {/* overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 " />
+                    <div
+                      className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent 
+                                  lg:opacity-0 lg:group-hover:opacity-100 
+                                  transition-opacity duration-300"
+                    />
+
                     <button
                       onClick={() => {
                         handleAddToCart(product.selectedQuantity);
                         handleAddToProduct(index, product.selectedQuantity);
                       }}
-                      className="absolute w-[85%] cursor-pointer left-1/2 -translate-x-1/2 -bottom-4 px-4 py-3 rounded-lg 
+                      className="absolute w-[85%] cursor-pointer left-1/2 -translate-x-1/2 -bottom-4 
+                                  px-4 py-3 rounded-lg 
                                   bg-gradient-to-r from-purple-600 to-pink-500 hover:from-pink-500 hover:to-purple-600 
-                                  font-medium opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 
+                                  font-medium 
+                                  translate-y-0  
+                                  lg:opacity-0 lg:translate-y-2 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 
                                   transition-all duration-300 shadow-lg 
                                   active:translate-y-1 active:scale-95"
                     >
